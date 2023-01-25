@@ -5,6 +5,7 @@ html,
 }
 
 body {
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -21,8 +22,8 @@ body {
 
 img {
     display: block;
-    margin-bottom: 3.6rem;
-    max-width: calc(50% - 1.8rem);
+    margin-bottom: 2rem;
+    max-width: calc(50% - 1rem);
 }
 
 .default-frames img {
@@ -97,12 +98,16 @@ button:hover {
 }
 
 #frames {
+    padding: 24px;
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+    background-color: #eee;
+    border-radius: 16px;
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 0.75rem;
     position: relative;
     width: 66.66%;
 }
@@ -132,4 +137,29 @@ button:hover {
         max-width: 100%;
         width: 100%;
     }
+}
+
+.footer {
+    font-size: 16px;
+    max-width: 1112px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: right;
+}
+
+.page-title {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#down-button {
+    margin-top: 12px;
+    opacity: 0;
+    transition: all 0.2s;
+    display: none;
+    background-color: #ee264b;
+}
+
+#down-button:hover {
+    background-color: #c11f42;
 }
