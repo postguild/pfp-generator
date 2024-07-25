@@ -15,7 +15,8 @@ const frames = [
     "./frames/circle-1.png",
     "./frames/circle-2.png",
     "./frames/circle-4.png",
-    "./frames/circle-5.png"
+    "./frames/circle-5.png",
+    "./frames/peer.png"
 ];
 
 const frameNames = [
@@ -35,6 +36,7 @@ const frameNames = [
 	'twitter-2',
 	'twitter-gradient-1',
 	'twitter-gradient-2',
+    'peer',
 ]
 
 let images = []

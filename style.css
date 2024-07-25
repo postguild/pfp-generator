@@ -163,3 +163,19 @@ button:hover {
 #down-button:hover {
     background-color: #c11f42;
 }
+
+.section-split {
+    width: 100%;
+    h3 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        margin-top: 6px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 16px;
+        border-bottom: 2px solid rgba(0,0,0,0.2);
+    }
+}
